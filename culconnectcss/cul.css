@@ -1,0 +1,246 @@
+/*cul css*/
+body
+{
+
+}
+.my-nav
+{
+	z-index:100;
+}
+.ps
+{
+	display: none;
+}
+.navlinks
+{
+	margin-left:40%
+}
+.sidebar
+{
+	position: fixed;
+	margin-top:64px;
+	margin-left:5px;
+	padding:20px;
+	height:100vh;
+	z-index:1;
+	left:55%;
+	overflow-y: auto;
+}
+.top-nav nav a
+{
+	 margin-top: 70px;
+	margin-left:50px;
+}
+.top_input
+{
+	height:100px;
+	width:100%;
+	border-style:none;
+	background-color:#ededed;
+}
+.story-circle
+{
+	right:0px;
+	top:100px;
+	height:64px;
+	width:64px;
+	padding:2px;
+	border-style:solid;
+	border-color:pink;
+}
+.back
+{
+	height:200px;
+	width:50%;
+	border-radius:5%;
+}
+.overflow
+{
+	overflow-x:scroll;
+	display:flex;
+	width:100%;
+	height: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.post
+{
+	width:100%;
+}
+.im
+{
+	height:50px;
+	width:50px;
+}
+.rotate
+{
+	height:60px;
+	width:30vh;
+	transform:rotate(270deg);
+	left:87%; z-index:11;
+	top:30%;
+}
+.rotate2
+{
+	height:60px;
+	width:30vh;
+	transform:rotate(270deg);
+	left:87%; z-index:11;
+	top:60%;
+	background-color: #350000;
+	colo:red;
+}
+i
+{
+	margin:25%;
+}
+.icon_bar button
+{
+	background-color: white;
+	border-style:none;
+}
+button b
+{
+	background-color:#d6cfcf;
+	width:100px;
+}
+span input
+{
+	background-color:white;
+	border-style:none;
+	color:grey;
+}
+.comments
+{
+	border-top-style:solid;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	border-width:1px;
+	width:100%;
+}
+.comments input
+{
+	border-style:none;
+	width:80%;
+	height:20px;
+}
+footer nav
+{
+		margin-left: 20%;
+}
+footer nav a
+{
+	color:grey;
+	padding-left: :10px;
+	text-align:center;
+}
+@media screen and (max-width:1200px)
+{
+.rotate, .rotate2{left: 85%;}
+}
+@media screen and (max-width:992px)
+{
+	.top-nav nav a
+	{
+		 margin-top: 20px;
+		margin-left:110px;
+	}
+	.down
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+	}
+	.ps
+	{
+		display: flex;
+		margin-left: 150px;
+		margin-right: 150px;	width: 60%; margin-top: 60px;
+	}
+
+	.navlinks
+	{
+		margin-left: 0%;
+	}
+	.sidebar
+	{
+		position:relative;
+		margin-top:64px;
+		color:red;
+		height:auto;
+		background-color:white;
+		z-index:;
+		left:0;
+		top:100%;
+	}
+
+	.overflow, .disno
+	{
+	display: none;
+	}
+	.friendre
+	{
+		height:200px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.ad
+	{
+		height:400px;
+		position: relative;
+
+
+	}
+.rotate, .rotate2{left: 80%; display: none;}
+}
+
+@media screen and (max-width:576px)
+{
+	.top-nav nav a
+	{
+		 margin-top: 20px;
+		margin-left:70px;
+	}
+	.down
+	{
+		margin-top:;
+		margin-left: 0%;
+		margin-right: 0%;
+		width: 99%;
+	}
+	.navlinks
+	{
+		margin-left: 0%;
+	}
+	.sidebar
+	{
+		position: relative;
+		left: 0%;
+		margin-top:5px;
+		color:blue;
+		background-color:white;
+		height:auto;
+	}
+	.ps
+	{
+		margin-top: 12%;
+		display: flex;
+		margin-left: 35px;
+		width: auto;
+	}
+	.overflow, .disno
+	{
+	display: none;
+	}
+		.friendre
+	{
+		height:200px;
+	}
+	.ad
+	{
+		height:400px;
+
+	}
+	.rotate, .rotate2{left: 72%; display: none;}
+}
